@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid ;
+            row-gap: 20px;
+            column-gap: 20px;
+            grid-template-rows: 150px 300px 100px;
+        }
+        .container div{
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="grid-column: 1/4;"><h1>Header</h1></div>
+        <div><h1>Section 1</h1></div>
+        <div><h1>Section 2</h1></div>
+        <div><h1>Section 3</h1></div>
+        <div style="grid-column: 1/4;"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>
